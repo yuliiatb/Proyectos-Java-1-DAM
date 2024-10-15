@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prog10_tarea.CalculadoraFXMLController">
+   <children>
+      <Pane layoutX="147.0" layoutY="12.0" prefHeight="376.0" prefWidth="287.0" style="-fx-background-color: #FFF0F5;">
+         <children>
+            <Button fx:id="boton1" layoutX="47.0" layoutY="266.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" text="1" />
+            <Button fx:id="boton2" layoutX="96.0" layoutY="266.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" text="2" />
+            <Button fx:id="boton3" layoutX="144.0" layoutY="266.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" text="3" />
+            <Button fx:id="boton4" layoutX="47.0" layoutY="211.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" text="4" />
+            <Button fx:id="boton5" layoutX="96.0" layoutY="211.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" text="5" />
+            <Button fx:id="boton6" layoutX="144.0" layoutY="211.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" text="6" />
+            <Button fx:id="boton7" layoutX="47.0" layoutY="157.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" text="7" />
+            <Button fx:id="boton8" layoutX="96.0" layoutY="157.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" text="8" />
+            <Button fx:id="boton9" layoutX="144.0" layoutY="157.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" text="9" />
+            <Button fx:id="boton0" layoutX="47.0" layoutY="316.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="90.0" text="0" />
+            <Button fx:id="botonResultado" layoutX="144.0" layoutY="316.0" mnemonicParsing="false" onAction="#ejecutarCalculo" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: #90EE90;" text="=" />
+            <Button fx:id="botonSumar" layoutX="194.0" layoutY="266.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" style="-fx-background-color: #FFD700;" text="+" />
+            <Button fx:id="botonRestar" layoutX="194.0" layoutY="211.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" style="-fx-background-color: #FFD700;" text="-" />
+            <Button fx:id="botonMultiplicar" layoutX="194.0" layoutY="157.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" style="-fx-background-color: #FFD700;" text="X" />
+            <Button fx:id="botonDividir" layoutX="194.0" layoutY="108.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" style="-fx-background-color: #FFD700;" text="/" />
+            <Button fx:id="botonLimpiar" layoutX="46.0" layoutY="108.0" mnemonicParsing="false" onAction="#clickBotonLimpiar" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: #90EE90;" text="C" />
+            <Button fx:id="botonExponer" layoutX="144.0" layoutY="108.0" mnemonicParsing="false" onAction="#pulsarBoton" prefHeight="39.0" prefWidth="40.0" style="-fx-background-color: #FFD700;" text="EXP" />
+            <TextField fx:id="mostrarResultadoTxtF" alignment="CENTER_RIGHT" layoutX="45.0" layoutY="38.0" prefHeight="56.0" prefWidth="187.0" style="-fx-background-color: #ADD8E6;">
+               <effect>
+                  <Glow />
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
