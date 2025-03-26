@@ -1,0 +1,20 @@
+Titular: DNI: 11111111Q
+Nombre: Vanessa
+Apellido(s): AdamsIBAN: ES11111111112222222222
+Titular: DNI: 22222222W
+Nombre: David
+Apellido(s): Rodr�guezIBAN: ES22222222223333333333
+El número total de cuentas: 2Titular: DNI: 33333333E
+Nombre: Elena
+Apellido(s): Vila CastroIBAN: ES33333333334444444444
+El número total de cuentas: 1Titular: DNI: 44444444R
+Nombre: Manuel
+Apellido(s): PerezIBAN: ES44444444445555555555
+El número total de cuentas añadidas: 1
+Titular: DNI: 99999999P
+Nombre: Ana
+Apellido(s): VarelaIBAN: ES99999999998888888888
+Titular: DNI: 88888888O
+Nombre: Ignacio
+Apellido(s): SevillaIBAN: ES88888888887777777777
+El número total de cuentas añadidas: 2
